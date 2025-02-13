@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Detailed Battle Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+</head>
+
+<!--Normal header from our own CSS file-->
+<div class="header">
+  <img src="https://www.stoltzgroup.com/wp-content/uploads/2020/04/SMG_CatsVsDogs_Header.png" alt="Cats vs Dogs"
+       width="500" height="142">
+  <h1>Cats Vs. Dogs</h1>
+</div>
+<br>
+
+<!--Same Navigator as on the other htmls, received this from pure-CSS-->
+
+<div class="pure-menu custom-restricted-width">
+  <span class="pure-menu-heading">Navigator</span>
+  <ul class="pure-menu-list">
+    <li class="pure-menu-item">
+      <a href="index.html" class="pure-menu-link">Back to Matchups of the Day</a>
+    </li>
+    <li class="pure-menu-item">
+      <a href="about.html" class="pure-menu-link">About</a>
+    </li>
+    <!--    Does not lead anywhere, as there is no social media, just looks weird with only two-->
+    <li class="pure-menu-item">
+      <a href="#" class="pure-menu-link">Social Medias</a>
+    </li>
+  </ul>
+</div>
+<br>
+
+<br><br>
+
+<!-- Matchup Information / This is the only detail page as is explained in the assignment -->
+
+<div>
+  <h4 class="text-center">Matchup Selected...</h4><br>
+
+  <!-- Match Row with 3 clickable images -->
+  <a class="matchup-row">
+    <img src="js/images/Bella.png" alt="Cat" class="matchup-img">
+  </a>
+
+  <a class="matchup-row">
+    <img src="js/images/vs.png" alt="Vs logo" class="matchup-img">
+  </a>
+
+  <a class="matchup-row">
+    <img src="js/images/Jiddy.png" alt="Dog" class="matchup-img">
+  </a>
+</div>
+
+<br><br>
+
+<!--Print information about each animal below them so that the user can have a little more information to base their vote off of
+utilizes the table from pure-CSS to easily split the message between the two-->
+<div style="text-align: center;">
+  <table class="pure-table" style="margin: 0 auto; width: 80%;">
+    <thead>
+    <tr>
+      <th>Bella</th>
+      <th>Jiddy</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Bella is a very rambunctious cat, bounding with seemingly endless energy. She likes to spend her days
+        chasing lasers and tearing toilet paper and her nights cuddling with her owners. She is currently a healthy 6
+        year old but has the personality of a 1-year-old.
+      </td>
+      <td>Jiddy is as loyal as a dog could be, he has recently successfully alerted his owners of somebody rummaging
+        through
+        their belongings outside and is a certified "good boy" as he has been known to "shake" and "sit" on command
+        since a pup. His owners are positive he will win.
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<br><br>
+<!--Form for choosing candidate and submitting result utilizing Pure-CSS for easy formatting-->
+<form class="pure-form">
+  <fieldset>
+    <legend>Enter in your Email and Submit who you think is the cutest!</legend>
+    </label>
+    <label for="checkbox-radio-option-two" class="pure-radio">
+      <input id="checkbox-radio-option-two" type="radio" name="optionsRadios" checked="" value="option1"/> Bella
+    </label>
+    <label for="checkbox-radio-option-three" class="pure-radio">
+      <input id="checkbox-radio-option-three" type="radio" name="optionsRadios" value="option2"/> Jiddy
+    </label>
+    <input type="email" placeholder="Email"/>
+    <button type="submit" class="pure-button pure-button-primary">Submit!</button>
+  </fieldset>
+</form>
+
+<!--Normal footer from our own CSS file-->
+<div class="footer">
+
+</div>
+</html>

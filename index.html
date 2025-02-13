@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Utilizing href pure-CSS as recommended-->
+<head>
+  <title>Dog vs. Cat</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+</head>
+
+
+<!--Index page that meant to display all the current furry 'competitors' on the website-->
+<body>
+<!--Show a cool header that will be present on every page, just a simple banner-->
+<div class="header">
+  <img src="https://www.stoltzgroup.com/wp-content/uploads/2020/04/SMG_CatsVsDogs_Header.png" alt="Dogs v Cats"
+       width="500" height="142">
+  <h1>Cats Vs. Dogs</h1>
+</div>
+
+<div class="pure-menu custom-restricted-width">
+  <span class="pure-menu-heading">Navigator</span>
+  <ul class="pure-menu-list">
+    <li class="pure-menu-item">
+      <a href="index.html" class="pure-menu-link">Matchups of the Day</a>
+    </li>
+    <li class="pure-menu-item">
+      <a href="about.html" class="pure-menu-link">About</a>
+    </li>
+    <!--    Does not lead anywhere, as there is no social media, just looks weird with only two-->
+    <li class="pure-menu-item">
+      <a href="#" class="pure-menu-link">Social Medias</a>
+    </li>
+  </ul>
+</div>
+
+<div class="footer">
+  <p>
+  </p>
+</div>
+
+
+<!--inspiration for clickable images for redirect goes to: https://www.geeksforgeeks.org/how-to-turn-an-image-into-a-link-in-html/-->
+<!--my code is not identical to it, but I just wanted to be clairvoyant since you stated if we are confused to be like real CS students-->
+<!--and figure it out.-->
+<br> <br>
+
+<!--Place all matchups below and generate a link that corresponds with the selection made by the user to view.
+All  the matches are literally the exact same besides the link they lead to (obviously they lead to the same thing for
+this assignment) and the images of the animals. -->
+
+<!--Also added a little splash of text about each animal under their name utilizing the pure-css tables since they are really easy to add and -->
+<!--center-->
+
+<!--Matchup one and accompanying pets-->
+<div>
+  <h4 class="text-center">Matchup One...</h4><br>
+
+  <!-- 3 clickable images to reroute -->
+  <a href="details.html?cat=Bella&dog=Jiddy" class="matchup-row">
+    <img src="js/images/Bella.png" alt="Cat" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=Bella&dog=Jiddy" class="matchup-row">
+    <img src="js/images/vs.png" alt="Vs logo" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=Bella&dog=Jiddy" class="matchup-row">
+    <img src="js/images/Jiddy.png" alt="Dog" class="matchup-img">
+  </a>
+</div>
+
+<div style="text-align: center;">
+  <table class="pure-table" style="margin: 0 auto; width: 80%;">
+    <thead>
+    <tr>
+      <th>Bella</th>
+      <th>Jiddy</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Bella is a very rambunctious cat, bounding with seemingly endless energy... Click image to read more</td>
+      <td>Jiddy is as loyal as a dog could be, he has recently successfully alerted... Click image to read more</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<br><br>
+<!--Matchup two and accompanying pets-->
+<div>
+  <h4 class="text-center">Matchup Two...</h4><br>
+
+  <!-- 3 clickable images to reroute -->
+  <a href="details.html?cat=Lou&dog=Pembroke" class="matchup-row">
+    <img src="js/images/Lou.png" alt="Cat" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=Lou&dog=Pembroke" class="matchup-row">
+    <img src="js/images/vs.png" alt="Vs logo" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=Lou&dog=Pembroke" class="matchup-row">
+    <img src="js/images/Pembroke.png" alt="Dog" class="matchup-img">
+  </a>
+</div>
+<div style="text-align: center;">
+  <table class="pure-table" style="margin: 0 auto; width: 80%;">
+    <thead>
+    <tr>
+      <th>Lou</th>
+      <th>Pembroke</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Lou is renowned around his neighborhood for being the smallest and most... Click image to read more</td>
+      <td>Pembroke could be described in one word: "regal" he is well known to ... Click image to read more</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<br><br>
+<!--Matchup three and accompanying pets-->
+<div>
+  <h4 class="text-center">Matchup Three...</h4><br>
+
+  <!-- 3 clickable images to reroute -->
+  <a href="details.html?cat=Rambo&dog=Pheonix" class="matchup-row">
+    <img src="js/images/Rambo.png" alt="Cat" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=Rambo&dog=Pheonix" class="matchup-row">
+    <img src="js/images/vs.png" alt="Vs logo" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=Rambo&dog=Pheonix" class="matchup-row">
+    <img src="js/images/Pheonix.png" alt="Dog" class="matchup-img">
+  </a>
+</div>
+<div style="text-align: center;">
+  <table class="pure-table" style="margin: 0 auto; width: 80%;">
+    <thead>
+    <tr>
+      <th>Pheonix</th>
+      <th>Rambo</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Pheonix is well respected for his ability to sleep at literally any time... Click image to read more</td>
+      <td>Rambo is the definition of a great dog, incredibly intelligent and always... Click image to read more</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<br><br>
+<!--Matchup Four and accompanying pets-->
+<div>
+  <h4 class="text-center">Matchup Four...</h4><br>
+
+  <!-- 3 clickable images to reroute -->
+  <a href="details.html?cat=TrashBoat&dog=Smelly" class="matchup-row">
+    <img src="js/images/TrashBoat.png" alt="Cat" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=TrashBoat&dog=Smelly" class="matchup-row">
+    <img src="js/images/vs.png" alt="Vs logo" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=TrashBoat&dog=Smelly" class="matchup-row">
+    <img src="js/images/Smelly.png" alt="Dog" class="matchup-img">
+  </a>
+</div>
+<div style="text-align: center;">
+  <table class="pure-table" style="margin: 0 auto; width: 80%;">
+    <thead>
+    <tr>
+      <th>TrashBoat</th>
+      <th>Smelly</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>TrashBoat received their name for always being in something, whether that... Click image to read more</td>
+      <td>Smelly as would be expected has an omnipresent stench that surrounds him... Click image to read more</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<br><br>
+<!--Matchup Five and accompanying pets-->
+<div>
+  <h4 class="text-center">Matchup Five...</h4><br>
+
+  <!-- 3 clickable images to reroute -->
+  <a href="details.html?cat=Rosary&dog=Reyna" class="matchup-row">
+    <img src="js/images/Rosary.png" alt="Cat" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=Reyna&dog=Rosary" class="matchup-row">
+    <img src="js/images/vs.png" alt="Vs logo" class="matchup-img">
+  </a>
+
+  <a href="details.html?cat=Reyna&dog=Rosary" class="matchup-row">
+    <img src="js/images/Reyna.png" alt="Dog" class="matchup-img">
+  </a>
+</div>
+<div style="text-align: center;">
+  <table class="pure-table" style="margin: 0 auto; width: 80%;">
+    <thead>
+    <tr>
+      <th>Reyna</th>
+      <th>Rosary</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Reyna not only is a great Valorant operator, they are also a cute cat that... Click image to read more</td>
+      <td>Rosary although having an atypical name is respected in the canine community... Click image to read more</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<!--End of the matchups for the day; put a little blurb about the website, although could be replaced
+ with anything like links to social media or whatever else.-->
+<br> <br>
+<div class="footer">
+  <p>
+  </p>
+</div>
+
+</body>
+</html>
